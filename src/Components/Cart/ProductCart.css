@@ -1,0 +1,44 @@
+.image{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cartmain{
+    display: flex;
+    gap: 20px;
+}
+
+.top{
+    margin-top: -20px;
+}
+
+.deleteIcon{
+    font-size: 2em;
+    display: flex;
+    margin-top: 40px;
+}
+
+.drawerCard{
+    height: 150px !important;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+}
+
+.drawerCard:hover {
+    border: 2px solid gray;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .drawerCard {
+        border: none;
+    }
+
+
+    .drawerCard :hover{
+       border: none ;
+    }
+
+}

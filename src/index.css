@@ -1,0 +1,24 @@
+@font-face {
+    font-family:satoshi ;
+    src: url(../public/assets/fonts/Satoshi-Medium.otf);
+}
+
+
+p , a , li ,button{
+    font-family: satoshi;
+}
+
+.heading{
+    font-family: inter;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+
+
+a{
+    text-decoration: none !important;
+    color: rgb(41, 41, 41) !important;
+    color: white !important;
+}

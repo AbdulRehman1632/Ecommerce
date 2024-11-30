@@ -1,0 +1,8 @@
+.customIcon{
+    font-size: 2em;
+}
+
+.customIcon{
+    display: flex;
+    gap: 10px;
+}

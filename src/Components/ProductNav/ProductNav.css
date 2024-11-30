@@ -1,0 +1,81 @@
+@font-face {
+    font-family: dance;
+    src: url(../../../public/assets/fonts/dancing/DancingScript-Bold.ttf);
+}
+
+.logo{
+    font-family: dance;
+    font-size: 2em !important;
+    margin-left: -10px;
+}
+
+.display{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+span.anticon.anticon-shopping-cart {
+    font-size: 2em;
+}
+
+.lists {
+   margin-left: 250px;
+   gap: 10px;
+    
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.checkout span {
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid rgb(212, 210, 210);
+    padding-bottom: 10px;
+    color: rgb(13, 175, 13);
+}
+
+.CheckoutBtn{
+    text-align: center;
+}
+
+.color{
+    background-color: rgb(22, 22, 22);
+}
+
+.white{
+    color: white !important;
+}
+
+button.white.navbar-toggler {
+    color: white !important;
+    background-color: white;
+}
+
+.dropdown-menu.show {
+    background-color: black;
+}
+
+.dropdown-menu.show :hover a{
+    color: black !important;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .lists{
+        margin-left: 0px;
+    }
+    
+}

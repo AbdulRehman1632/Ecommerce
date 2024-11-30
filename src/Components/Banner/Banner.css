@@ -1,0 +1,78 @@
+@font-face {
+    font-family: inter;
+    src: url(../../../public/assets/fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+.BannerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BannerHeading h1{
+    font-family: inter;
+    font-size: 2.5em ;
+}
+
+.bg{
+    background-color: #F2F0F1;
+    padding: 0px 20px;
+    border-radius: 5px;
+
+}
+
+.Details h2 {
+    font-family: inter;
+}
+
+.Lists{
+    display: flex;
+}
+
+.Lists .Details{
+    /* border: 1px solid black; */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container{
+    overflow-x: hidden;
+  }
+
+
+@media screen and  (max-width:600px){
+
+    .BannerWrapper{
+        width: 100%;
+    }
+    .BannerImage img{
+        width: 100%;
+    }
+
+    .BannerBtn {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .Lists .Details {
+        padding: 0px;
+    }
+
+    .container{
+        overflow-x: hidden;
+      }
+   
+}

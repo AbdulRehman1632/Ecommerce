@@ -1,0 +1,15 @@
+
+.WomenBags {
+    width: 90%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+
+@media screen and (max-width:600px) {
+    .WomenBags {
+        width: 90%;
+    }
+
+}

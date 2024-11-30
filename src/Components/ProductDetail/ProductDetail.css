@@ -1,0 +1,119 @@
+.detailMain{
+    margin-top: 30px !important;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.adjust {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70% !important;
+}
+
+.DetailImage img{
+   margin-left: 50px;
+   width: 80%;
+}
+
+
+.Detailheading h4{
+    font-family: inter;
+    font-size: 1.8em !important;
+}
+
+.DetailStars{
+    font-size: 1.5em !important;
+    margin-top: -10px;
+}
+
+.Price{
+    font-size: 1.5em;
+}
+
+.availabilityStatus p{
+    border: 1px solid gray;
+    width: 70px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 2px;
+}
+
+.Shipping{
+    color: green;
+}
+
+.returnPolicy{
+    color:red;
+}
+
+/* customerReview==== */
+
+.mainReview{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resp{
+    display: flex;
+    width: 160% !important;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+    .detailMain{
+        margin-top: 30px !important;
+    }
+
+    .DetailImage {
+        display: flex;
+        justify-content: center;
+    }
+
+    .DetailImage img{
+        margin-left: 0px;
+        width: 100%;
+     }
+    .DetailBtn{
+        text-align: center;
+    }
+
+    .adjust {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 0px;
+        width: 90% !important;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+/* customerReview==== */
+
+    .resp{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px !important;
+        justify-content: center;
+    }
+    .mainReview{
+        padding: 0px 20px !important;
+        
+    }
+    
+    
+}

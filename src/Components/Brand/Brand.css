@@ -1,0 +1,39 @@
+.brandWrapper,
+.black {
+  background-color: black;
+}
+
+.main-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandWrapper {
+  padding: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+.brandWrapper img {
+  height: 34px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .main-brand {
+    flex-wrap: wrap;
+  }
+
+  .brandWrapper {
+    width: 125px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .brandWrapper img {
+    width: 100px;
+    height: 20px;
+  }
+ 
+}

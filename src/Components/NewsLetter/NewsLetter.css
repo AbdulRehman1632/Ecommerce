@@ -1,0 +1,63 @@
+.NewMain{
+    color: white;
+    background-color: gray;
+    padding: 25px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px ;
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NewMain h2{
+    font-family: inter;
+    /* font-weight: 200 !important; */
+}
+
+.newsContent input {
+    width: 270px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.newsContent button{
+    width: 270px;
+}
+.newsContent{
+   margin-left: 80px;
+}
+
+.container{
+    overflow-x: hidden;
+  }
+
+@media screen and (max-width:600px) {
+    .NewMain{
+        width: 85%;
+        padding: 20px;
+        position: relative;
+        top: 130px;
+        /* margin-right: 40px; */
+
+    }
+
+    .newsContent input,.newsContent button{
+        width: 230px !important;
+    }
+
+    .newsContent{
+        margin-left: 0px;
+     }
+     
+    .container{
+        overflow-x: hidden;
+      }
+    
+}
+

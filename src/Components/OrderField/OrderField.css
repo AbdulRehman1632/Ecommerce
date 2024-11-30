@@ -1,0 +1,92 @@
+
+.ContactForm input{
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+    gap: 20px;
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+
+}
+
+.ContactForm{
+    margin-top: 10px;
+
+}
+
+.ContactWrapper{
+    margin-top: -50px ;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+    padding: 0px 30px;
+    box-shadow: rgba(236, 231, 231, 0.35) 0px 5px 15px;
+}
+
+.fullScreen {
+    background-color: black; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+}
+
+.contactBtn button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
+
+.contactBtn{
+    text-align: center;
+
+}
+
+.contactBtn button:hover{
+    color: white;
+    background-color: gray;
+}
+
+
+@media screen and (max-width:600px) {
+    .ContactForm input{
+        width: 90%;
+        height: 10px;
+        padding: 15px;
+    }
+
+    .ContactForm h5 {
+        font-size: 1em;
+    }
+    
+    .ContactWrapper{
+        margin-top: -80px ;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        padding-bottom: 20px;
+    }
+
+
+    .ContactForm{
+        width: 100%;
+    }
+
+}
